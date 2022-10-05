@@ -4,7 +4,7 @@
 number = int(input('Enter a three digit number: '))
 hundreds = number%100
 tens = (number%100)/10
-ones = (number% 100)%10
+ones = (number%100)%10
 print(f'{hundreds} hundreds')
 print(f'{tens} tens')
 print(f'{ones} ones')
